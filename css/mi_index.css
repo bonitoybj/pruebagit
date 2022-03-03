@@ -1,0 +1,73 @@
+body{
+	background-color: #D6D5D5;
+
+}
+
+@font-face{ 
+            font-family:'itc_blkad'; 
+            src:url(../fonts/ITCBLKAD.TTF) format('truetype');
+}
+
+h2{
+	font-family:'itc_blkad';
+	font-size: 55px;
+}
+
+.navbar-brand{
+	font-family:'itc_blkad';
+	font-size: 22px;
+}
+
+#container{
+	border-top: 2px solid #9D9D9D;
+	/*background-color: #926B45;*/
+	background: linear-gradient(to bottom, rgb(249, 242, 236,0), rgb(153, 102, 51,1));
+}
+
+
+
+
+
+header{	
+	background-size: cover;	
+	height: auto;
+	min-height: 220px;
+}
+
+
+
+#espacio img{
+	height: 90px;
+	background-size: cover;
+	
+}
+
+.carousel-inner{
+	
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #B7C5A9;
+}
+
+#nosotros{
+	width: 100%;		
+	
+	box-shadow: 5px 5px 5px #B7C5A9;
+	border-radius:10px;	
+	padding: 10px;	
+}
+
+#nosotros: over{
+	box-shadow: 5px 5px 5px #151F0A;
+}
+
+#texto{
+	text-align: left;
+	text-shadow: 1px 1px #9D9D9D;
+	font-size: 21px;
+}
+
+footer{
+	border-top: 1px solid #D6D5D5;
+	margin-top: 10px;	
+}
+

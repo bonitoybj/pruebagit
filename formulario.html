@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>Formulario</title>   
+    <link href="css/bootstrap.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="css/mi_estilo.css">   
+  </head>
+  <body>
+    <div id="container" class="container">
+      <header class="row">
+        <div id="espacio">
+          <img src="img/logo.ico" class="img-responsive" alt="Responsive image">
+    
+      </div>
+
+              
+          <nav id="barra" class="navbar navbar-inverse"> <!--empieza barra-->
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Hecho en Casa</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Productos <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Licores</a></li>
+            <li><a href="#">Dulces</a></li>
+            <li><a href="#">Mermeladas</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">PULPAS</a></li>           
+            
+          </ul>
+        </li>
+        <li><a href="formulario.html">Contacto</a></li>   
+      </ul>
+      
+      <form class="navbar-form navbar-right">        
+        <ul  class="nav navbar-nav">                           
+        </ul>
+        <div id="redes">
+          <a href="#" data-toggle="tooltip" data-placement="bottom" title="pronto"><img src="img/face28-28.png" ></a>
+          <a href="#" data-toggle="tooltip" data-placement="bottom" title="pronto"><img src="img/twi28-28.png">
+          </a>
+        </div>      
+      </form>      
+       
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>  
+       
+      </header>
+
+      <section class="row" >
+        <div class="col-lg-4 col-md-4 col-sm-1 col-xs-1">
+        <img id="img_con" src="img/pulpambu.jpg" class="img-responsive img-rounded" alt="Responsive image">          
+        </div>
+        <div id="contacto" class="col-lg-4 col-md-4 col-sm-10 col-xs-10">
+          <h2 class="text-center">Contacto</h2>
+          <form id="" method="POST" action="#">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre_for" id="nombre" class="form-control" required>
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido_for" id="apellido" class="form-control" required>
+            <label for="correo">Correo electronico</label>
+            <input type="email" name="correo_for" id="correo" class="form-control" placeholder="pepito@example.com">
+            <label for="telefono">Telefono</label>
+            <input type="tel" name="telefono_for" id="telefono" class="form-control" placeholder="(Código de área) Número">
+            <label for="conculta">Consulta</label>
+            <textarea id="consulta" name="consulta_for" class="form-control" rows="6"></textarea><br>
+            <input type="submit" value="Enviar Consulta" class="btn btn-danger">
+          </form>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-1 col-xs-1">
+        <img id="img_con" src="img/IMG-20180516-WA0187.jpg" class="img-responsive img-rounded" alt="Responsive image">          
+        </div>
+      </section>
+      <footer class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <p>@visebas1- 2018</p>
+        </div>  
+      </footer>
+
+    </div>
+
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>   
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

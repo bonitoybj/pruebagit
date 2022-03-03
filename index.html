@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>Inicio</title>   
+    <link href="css/bootstrap.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="css/mi_index.css">   
+  </head>
+  <body>
+    <div id="container" class="container">
+      <header class="row">
+        <div id="espacio">
+          <img src="img/logo.ico" class="img-responsive" alt="Responsive image">    
+        </div>              
+          <nav id="barra" class="navbar navbar-inverse"> 
+            <!--empieza barra-->
+    <div class="container-fluid">
+     <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Hecho en Casa</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Productos <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Licores</a></li>
+            <li><a href="#">Dulces</a></li>
+            <li><a href="#">Mermeladas</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">PULPAS</a></li>                
+          </ul>
+        </li>
+        <li><a href="formulario.html">Contacto</a></li>   
+      </ul>
+      
+      <form class="navbar-form navbar-right">        
+        <ul  class="nav navbar-nav">                           
+        </ul>
+        <div id="redes">
+          <a href="#" data-toggle="tooltip" data-placement="bottom" title="pronto"><img src="img/face28-28.png" ></a>
+          <a href="#" data-toggle="tooltip" data-placement="bottom" title="pronto"><img src="img/twi28-28.png">
+          </a>
+        </div>      
+      </form>      
+       
+     </div><!-- navbar-collapse -->
+    </div><!-- container-fluid -->
+          </nav>  
+                            <!-- fin barra -->        
+      </header>
+
+      <section class="row" >
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <h2 class="text-center">Galeria</h2>
+          <div id="migaleria" class="carousel slide">
+            <div class="carousel-inner">
+              <ol class="carousel-indicators">
+                <li data-target="#migaleria" data-slide-to="0" class="active"></li>
+                <li data-target="#migaleria" data-slide-to="1"></li>
+                <li data-target="#migaleria" data-slide-to="2"></li>
+                <li data-target="#migaleria" data-slide-to="3"></li>
+                <li data-target="#migaleria" data-slide-to="4"></li>
+                <li data-target="#migaleria" data-slide-to="5"></li>
+              </ol>
+              <div class="item active">
+                <img src="img/hecho9.jpg" alt="">
+              </div>
+              <div class="item">
+                <img src="img/hecho2.jpg" alt="">
+              </div>
+              <div class="item">
+                <img src="img/hecho3.jpg" alt="">
+              </div>
+              <div class="item">
+                <img src="img/hecho4.jpg" alt="">
+              </div>
+              <div class="item">
+                <img src="img/hecho1.jpg" alt="">
+              </div>
+              <div class="item">
+                <img src="img/hecho8.jpg" alt="">
+              </div>
+              <a href="#migaleria" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+              <a href="#migaleria" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>            
+          </div>                 
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+          <h2 class="text-center">Nosotros</h2>
+          <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" 
+          id="nosotros">
+          <p id="texto">Hecho en Casa es una empresa joven, pionera en la elaboración de artesanal de licores, dulces, conservas y pulpas, que en la última década fue afianzándose en coincidencia con los cambios que experimentó nuestra provincia (Formosa) motorizado por el desarrollo agro-productivo y también tecnológico, donde todos somos co-partícipes de este desarrollo que exigió profesionalizarse tanto al productor, como al empresario para poder ofrecer al país un lugar turístico donde podía encontrar de la naturaleza virgen lo que producimos y lo que elaboramos.</p>
+          </div>          
+        </div>
+        
+      </section>
+      <section id="productos" class="row">
+        <h2 class="text-center">Algunos de nuestros productos</h2>     
+        <div class=" col-lg-3 col-md-3  col-xs-6"> 
+        <div class="thumbnail">
+      <img src="img/dulces.jpg" alt="...">
+      <div class="caption">
+        <h3 class="text-center">Dulces</h3>
+        <p>...</p><!– aca iria algun comentario relacionado — >
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dulce">Dulces</button>
+         <div class="modal fade" id="dulce" tabindex="-1" role="dialog" aria-labelledby="dulce_titulo">
+           <div class="modal-dialog" role="document">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                 <h2 class="modal-title text-center" id="dulce_titulo">Dulces</h2>
+               </div>
+               <div class="modal-body">
+                <div class="col-md-6">
+                <h3>Sabores:</h3>
+                 <ul>
+                  <li>Mamon al Almibar</li>
+                  <li>Mburucuyá</li>
+                  <li>Pomelo en Gajos</li>
+                  <li>Mango al Natural</li>
+                  <li>Guayaba en Casco</li>
+                 </ul>
+                 </div>
+                 <div class="col-md-6">
+                 <h3>Presentacion:</h3>
+                 <ul>
+                   <li>390 gr.</li>
+                   <li>900 gr.</li>
+                 </ul>
+                 </div>
+               </div>
+               <div class="modal-footer">
+                <div class="col-md-12">
+                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+                 </div>       
+               </div>
+             </div>
+           </div>
+         </div>          
+        </div>
+      </div>      
+  </div>
+  
+  <div class=" col-lg-3 col-md-3  col-xs-6">
+     <div class="thumbnail">
+      <img src="img/licores.jpg" alt="...">
+      <div class="caption">
+        <h3 class="text-center">Licores</h3>
+        <p>...</p><!– aca iria algun comentario relacionado — >
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#licor">Licores</button>
+         <div class="modal fade" id="licor" tabindex="-1" role="dialog" aria-labelledby="licor_titulo">
+           <div class="modal-dialog" role="document">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                 <h2 class="modal-title text-center" id="licor_titulo">Licores</h2>
+               </div>
+               <div class="modal-body">
+                <div class="col-md-6">
+                <h3>Sabores:</h3>
+                 <ul>
+                  <li>Banana a la Crema</li>
+                  <li>Mburucuyá</li>
+                  <li>Limón</li>
+                  <li>Limón a la Crema</li>
+                  <li>Mandarina</li>
+                  <li>Naranja</li>
+                 </ul>
+                 </div>
+                 <div class="col-md-6">
+                 <h3>Presentacion:</h3>
+                 <ul>
+                   <li>100 ml.</li>
+                   <li>200 ml.</li>
+                   <li>500 ml.</li>
+                 </ul>
+                 </div>                 
+               </div>
+               <div class="modal-footer">
+                <div class="col-md-12">
+                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+                 </div>       
+               </div>
+             </div>
+           </div>
+         </div>          
+        </div>
+      </div>
+    </div>
+    <div class=" col-lg-3 col-md-3  col-xs-6">
+     <div class="thumbnail">
+      <img src="img/mermeladas.jpg" alt="...">
+      <div class="caption">
+        <h3 class="text-center">Mermeladas</h3>
+        <p>...</p> <!– aca iria algun comentario relacionado — >
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#licor">Mermeladas</button>
+         <div class="modal fade" id="mermelada" tabindex="-1" role="dialog" aria-labelledby="merme_titulo">
+           <div class="modal-dialog" role="document">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                 <h2 class="modal-title text-center" id="merme_titulo">Mermeladas</h2>
+               </div>
+               <div class="modal-body">
+                <div class="col-md-6">
+                <h3>Sabores:</h3>
+                 <ul>
+                  <li>Banana </li>
+                  <li>Mburucuyá</li>
+                  <li>Pomelo</li>
+                  <li>Mango</li>
+                  <li>Mamon</li>
+                  <li>Guayaba</li>
+                 </ul>
+                 </div>
+                 <div class="col-md-6">
+                 <h3>Presentacion:</h3>
+                 <ul>
+                   <li>40 gr.</li>
+                   <li>250 gr.</li>                   
+                 </ul>
+                 </div>                 
+               </div>
+               <div class="modal-footer">
+                <div class="col-md-12">
+                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                 </div>        
+               </div>
+             </div>
+           </div>
+         </div>          
+        </div>
+      </div>
+    </div>
+    <div class=" col-lg-3 col-md-3  col-xs-6">
+      <div class="thumbnail">
+       <img src="img/pulpas.jpg" alt="...">
+        <div class="caption">
+        <h3 class="text-center">Pulpas</h3>
+        <p>...</p> <!– aca iria algun comentario relacionado — >        
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#pulpa">Pulpas</button>
+         <div class="modal fade" id="pulpa" tabindex="-1" role="dialog" aria-labelledby="pulpa_titulo">
+           <div class="modal-dialog" role="document">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                 <h3 class="modal-title text-center" id="pulpa_titulo">Pulpas</h3>
+               </div>
+               <div class="modal-body">
+                <div class="col-md-6">
+                <h3>Sabores:</h3>
+                 <ul>                  
+                  <li>Mburucuyá</li>
+                  <li>Mango</li>                  
+                 </ul>
+                 </div>
+                 <div class="col-md-6">
+                 <h3>Presentacion:</h3>
+                 <ul>
+                   <li>1000 ml.</li>
+                   <li>500 ml.</li>
+                   <li>200 ml.</li>
+                   <li>20 ml.</li>
+                 </ul>
+                 </div>                 
+               </div>
+               <div class="modal-footer">
+               <div class="col-md-12">                
+                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                 </div>        
+               </div>
+             </div>
+           </div>
+         </div>         
+        </div>  <!-- caption -->
+      </div>  <!-- thumbnail -->
+    </div>
+
+      </section>      
+      <footer class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <p>@visebas1- 2018</p>           
+        </div>                   
+      </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>   
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
